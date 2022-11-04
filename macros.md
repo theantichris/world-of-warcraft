@@ -34,16 +34,6 @@
 /use 3
 ```
 
-### TSM
-
-```
-/click TSMCancelAuctionBtn
-/click TSMShoppingBuyoutBtn
-/click TSMCraftingBtn
-/click TSMAuctioningBtn
-/click TSMDestroyBtn
-```
-
 ### Trinkets
 
 ```
