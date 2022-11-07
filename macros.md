@@ -17,6 +17,19 @@
 /clearfocus [mod: shift]
 ```
 
+## Mount
+
+```
+#show [outdoors]Hearthsteed;[indoors]8
+/stopmacro [indoors]
+/use [mod:shift]Grand Expedition Yak
+/use [mod:ctrl]Sandstone Drake
+/dismount [noflying,mounted]
+/dismount [mod,mounted]
+/stopmacro [flying,mounted]
+/run C_MountJournal.SummonByID(0)
+```
+
 ### Mouseover
 
 ```
