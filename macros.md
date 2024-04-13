@@ -17,7 +17,7 @@
 /clearfocus [mod: shift]
 ```
 
-## Mount
+### Mount
 
 ```
 #show [outdoors]Hearthsteed;[indoors]8
@@ -39,17 +39,6 @@
 /dismount [mod,mounted]
 /stopmacro [flying,mounted]
 /run C_MountJournal.SummonByID(0)
-```
-
-## Druid Mount
-
-```
-/dismount [mounted]
-/use [mod:shift]Grand Expedition Yak
-/cast [nomounted, dragonridable] Highland Drake
-/cast [indoors] [combat] Cat Form
-/cast [nomounted, flyable] Travel Form
-/cast [nomounted, noflyable] Travel Form
 ```
 
 ### Mouseover
@@ -203,6 +192,17 @@
 #showtooltip Soothe
 /stopcasting
 /cast [@focus,exists][@target] Soothe
+```
+
+## Druid Mount
+
+```
+/dismount [mounted]
+/use [mod:shift]Grand Expedition Yak
+/cast [nomounted, dragonridable] Highland Drake
+/cast [indoors] [combat] Cat Form
+/cast [nomounted, flyable] Travel Form
+/cast [nomounted, noflyable] Travel Form
 ```
 
 ### Travel Form
