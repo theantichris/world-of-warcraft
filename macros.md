@@ -41,6 +41,17 @@
 /run C_MountJournal.SummonByID(0)
 ```
 
+## Druid Mount
+
+```
+/dismount [mounted]
+/use [mod:shift]Grand Expedition Yak
+/cast [nomounted, dragonridable] Highland Drake
+/cast [indoors] [combat] Cat Form
+/cast [nomounted, flyable] Travel Form
+/cast [nomounted, noflyable] Travel Form
+```
+
 ### Mouseover
 
 ```
